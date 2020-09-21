@@ -1,3 +1,8 @@
+- if task.errors.present?
+  ul#error_explanation
+    - task.errors.full_massage.each do |message|
+      li = message
+
 // ここでtaskはローカル変数、@つけるとインスタンス変数でオブジェクト内からは全てアクセスできる
 = form_with model: task, local: true do |f|
   .form-group
