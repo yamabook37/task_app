@@ -58,7 +58,7 @@ gem 'slim-rails'
 gem 'html2slim'
 
 # add 0921
-gem 'rails-i18n'
+#gem 'rails-i18n'
 
 gem 'bootstrap'
 
